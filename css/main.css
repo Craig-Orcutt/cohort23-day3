@@ -2,6 +2,19 @@ body {
     background-color: darkcyan;
 }
 
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: seagreen;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.flex-item {
+    background-color: hotpink;
+    margin: 1em;
+    padding: .24em;
+}
 
 nav {
     background-color: orange;
